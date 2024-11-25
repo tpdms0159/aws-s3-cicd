@@ -1,7 +1,8 @@
 name: CI/CD hdev_client to AWS S3
-  on: 
-    push:
-      branches: - main
+
+on: 
+  push:
+    branches: - main
 
 jobs: 
   deploy:
